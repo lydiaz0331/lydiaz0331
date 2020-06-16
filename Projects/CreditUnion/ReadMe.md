@@ -6,6 +6,7 @@ The business insight of this project are:
    - Apply machine learning methods and predictive analytic models on the current data to gain some potential new insights.
 
 Model: **K-Medoids Clustering, Random Forest**
+
 Conclusion:
    - Using Monte-Carlo simulation, we’ve determined a robust scaling method to determine new volatility figures for each of the currently defined credit tiers as to better simulate future investment environments.
    - Using K-Medoids Clustering--based on a customer’s origination credit score and their current debt to service ratio--we’ve determined new bins to classify our customers into a hierarchy of credit tiers.
