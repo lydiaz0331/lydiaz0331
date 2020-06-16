@@ -1,14 +1,14 @@
-This is just a sample. You can play around with your own text right here.
-
-Markdown
+Hall of Fame Predictive Modeling Project
 -------------
+-	The business insight of this project comes from the fact that now excellent NBA players are getting drafted by small market teams then leaving or demanding a trade 
+-	We want to build a model which can evaluate potential value of the player, both on and off the court
 
-...is really just ordinary text, *plain and simple*. How is it good for you?
-
-- You just **type naturally**, and the result looks good.
-- You **don't have to worry** about clicking formatting buttons.
-  - Or fiddling with indentation. (Two spaces is all you need.)
-
-To see what else you can do with Markdown (including **tables**, **images**, **numbered lists**, and more) take a look at the [Cheatsheet][1]. And then try it out by typing in this box!
-
-[1]: https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet
+  -	Model: **Logistic Regression, LDA, QDA.**
+  - Data Source:
+    - Career data of 1000 top NBA scorers. Calculated new stats and initialized binary variables in Excel.
+    - 2015 Player info. This was used exclusively to determine if a player retired in time to be in the Hall of Fame as of 2018.
+    - Hall of Fame data. List of all players in Hall of Fame.
+    - All Star data. Used to calculate career All-Star appearances within main data set.
+  - Final Result:
+    - ROC Curve shows that QDA gives the best result
+    - The model performs very well when using the NBA players’ metrics to predict their possibility of presence at HOF.
